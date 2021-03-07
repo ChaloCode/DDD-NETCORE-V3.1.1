@@ -1,0 +1,136 @@
+{
+	"info": {
+		"_postman_id": "e692125a-8878-411f-9e2d-945c7595e133",
+		"name": "GONZALO-TEST-API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5033/api/country/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5033/api/country/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5033",
+					"path": [
+						"api",
+						"country",
+						""
+					]
+				},
+				"description": "LIST --> GET"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5033/api/country/3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5033/api/country/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5033",
+					"path": [
+						"api",
+						"country",
+						"3"
+					]
+				},
+				"description": "GET --> FIND"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5033/api/country",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{  \r\n    \"name\": \"LA ESTRELLA\",\r\n    \"SateId\":2   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5033/api/country",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5033",
+					"path": [
+						"api",
+						"country"
+					]
+				},
+				"description": "CREATE"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5033/api/country/3",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 3,\r\n    \"sateId\": 2,\r\n    \"name\": \"MEDELLIN2\"    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5033/api/country/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5033",
+					"path": [
+						"api",
+						"country",
+						"3"
+					]
+				},
+				"description": "UPDATE"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5033/api/country/3",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5033/api/country/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5033",
+					"path": [
+						"api",
+						"country",
+						"3"
+					]
+				},
+				"description": "DELETE"
+			},
+			"response": []
+		}
+	]
+}
