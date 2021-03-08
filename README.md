@@ -1,7 +1,5 @@
 # Solución del reto técnico
 
-# SERVER
-
 > Esta solución se implemento en una API con arquitectura DDD (domain driven design) NETCORE V3.1.1
 
 ## Video explicación - youtube
