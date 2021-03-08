@@ -4,6 +4,11 @@
 
 > Esta solución se implemento en una API con arquitectura DDD (domain driven design) NETCORE V3.1.1
 
+## Video explicación - youtube
+
+[![Alt text for your video](youtube.jpg)](https://www.youtube.com/watch?v=yDKO4aKslZc)
+
+
 ## Para ejecutar el API
 
  1. Primero restaure la base de datos:  
